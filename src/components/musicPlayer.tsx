@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const MusicButton = () => {
-    const audio = new Audio("../../public/Audio.mp3");
+    const audio = new Audio("./Audio.mp3");
     const [playing, setPlaying] = useState(false);
 
     const start = () => {

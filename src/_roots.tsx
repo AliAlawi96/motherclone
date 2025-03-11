@@ -9,10 +9,14 @@ export const Pages = () => {
     return (
         <Routes>
             <Route index element={<HomePage />} />
-            <Route path="about" element={<InfoPage />} />
-            <Route path="Services" element={<ServicesPage />} />
-            <Route path="case_studies" element={<CaseStudiesPage />} />
-            <Route path="careers" element={<CareersPage />} />
+            <Route path="motherclone" element={<HomePage />} />
+            <Route path="motherclone/about" element={<InfoPage />} />
+            <Route path="motherclone/Services" element={<ServicesPage />} />
+            <Route
+                path="motherclone/case_studies"
+                element={<CaseStudiesPage />}
+            />
+            <Route path="motherclone/careers" element={<CareersPage />} />
         </Routes>
     );
 };
